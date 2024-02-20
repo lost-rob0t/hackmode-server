@@ -1,0 +1,26 @@
+#+title: Readme
+
+
+A mAge pOject
+
+* Hackmode Server
+Hackmode server aims to provide 3 things
+
+** Expert system
+This will proxy your requests to a local file for you to derive rules from. The initial set of rules will come from my own local files
+
+These rules will then be used to match against your traffic, extract parameters and more. In the future I plan on adding ML to derive new rules experts dint see.
+** Processing Pipeline for Recon
+Every Single aspect of traffic will be used to enrich further recon.
+
+Http messages will be passed to a msg buss then to expert systems or other scripts you can hook into for automation
+
+All automations can be run by you just opening ZAP and firefox.
+** Simple Http API and http database
+Self explantory
+
+
+
+
+* Where is the code?
+It will be uploaded when it is ready.
